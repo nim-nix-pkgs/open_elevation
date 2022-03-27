@@ -11,6 +11,7 @@
   inputs.src-open_elevation-0_1_5.ref   = "refs/tags/0.1.5";
   inputs.src-open_elevation-0_1_5.owner = "juancarlospaco";
   inputs.src-open_elevation-0_1_5.repo  = "nim-open-elevation";
+  inputs.src-open_elevation-0_1_5.dir   = "";
   inputs.src-open_elevation-0_1_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

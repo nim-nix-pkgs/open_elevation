@@ -11,6 +11,7 @@
   inputs.src-open_elevation-master.ref   = "refs/heads/master";
   inputs.src-open_elevation-master.owner = "juancarlospaco";
   inputs.src-open_elevation-master.repo  = "nim-open-elevation";
+  inputs.src-open_elevation-master.dir   = "";
   inputs.src-open_elevation-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
